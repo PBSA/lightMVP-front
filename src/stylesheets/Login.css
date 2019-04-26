@@ -1,0 +1,28 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+        background-color: white;
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    .Username,.Password {
+        font-size: 10pt;
+        color: #3f51b5;
+    }
+    .Login Form Button {
+        max-width: 180px;
+        float: right;
+    }
+
+    .OR {
+        margin-top: 70px;
+        text-align: center;
+        color: #3f51b5;
+        font-weight: 600;
+        font-size: 16pt;
+    }
+    .TxtLogin {
+        text-align: center;
+        color: #3f51b5;
+    }
+}  
