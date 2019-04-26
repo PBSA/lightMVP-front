@@ -1,7 +1,6 @@
 import React, { Component} from "react";
 import {hot} from "react-hot-loader";
-import "../stylesheets/App.css";
-import Login from "./Login.js"
+import Login from "../Login"
 
 class App extends Component{
   render(){
