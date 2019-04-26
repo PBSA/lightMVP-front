@@ -6,7 +6,7 @@
   "scripts": {
     "release": "standard-version",
     "init": "npm install commitizen -g && npm install",
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+    "commit": "git-cz",
     "start-dev": "webpack-dev-server --mode development --config ./config/webpack.config.js",
     "stylelint": "stylelint '**/*.scss'"
   },
