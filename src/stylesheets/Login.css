@@ -1,9 +1,13 @@
 @media all and (min-width: 480px) {
     .Login {
-        padding: 60px 0;
+        padding: 20px;
         background-color: white;
-        margin: 0 auto;
-        max-width: 400px;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 30%;
+        transform: translate(-50%, -50%);
     }
     .Username,.Password {
         font-size: 10pt;
@@ -13,16 +17,26 @@
         max-width: 180px;
         float: right;
     }
-
-    .OR {
+    .TwitchSection{
         margin-top: 70px;
         text-align: center;
+    }
+    .OR {
         color: #3f51b5;
         font-weight: 600;
         font-size: 16pt;
     }
     .TxtLogin {
-        text-align: center;
         color: #3f51b5;
+        margin: 10px;
+    }
+    .BtnTwitch {
+        background-color: #6440A4;
+        border-color: #6440A4;
+        max-height: 100px;
+        width:150px;
+    }
+    .Heading {
+        text-align: center;
     }
 }  
