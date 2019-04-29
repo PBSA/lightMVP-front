@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Button, Form } from "react-bootstrap";
-import "../stylesheets/Login.css";
-import twitch from "../img/twitch.png";
+import twitch from "../../img/twitch.png";
 
 export default class Login extends Component {
   constructor(props) {
@@ -60,7 +59,7 @@ export default class Login extends Component {
         </Form>
         <div className="OR">OR</div>
         <div className="TxtLogin">Login with your Twitch Account</div>
-        <img src="{twitch}"></img>
+        <img src={twitch}></img>
       </div>
     );
   }
