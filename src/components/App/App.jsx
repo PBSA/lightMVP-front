@@ -1,6 +1,6 @@
-import React, { Component} from "react";
-import {hot} from "react-hot-loader";
-import CreateChallenge from "../CreateChallenge";
+import React, {Component} from 'react';
+import {hot} from 'react-hot-loader';
+import CreateChallenge from '../CreateChallenge';
 
 class App extends Component{
   render(){
