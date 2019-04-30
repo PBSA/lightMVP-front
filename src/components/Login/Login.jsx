@@ -54,7 +54,7 @@ export default class Login extends Component {
           </Form.Group>
           <Button
             block
-            disabled={ !this.validateForm() }
+            disabled={ !this.validateForm()}
             type='submit'
           >
             Login
