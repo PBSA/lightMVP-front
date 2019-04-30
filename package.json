@@ -73,15 +73,17 @@
   },
   "lint-staged": {
     "linters": {
-      "*.{js,jsx}": [
+      "src/**/*.{js,jsx}": [
         "eslint --fix",
         "git add"
       ],
-      "*.scss": [
+      "src/**/*.scss": [
         "stylelint --fix",
         "git add"
       ]
     },
-    "ignore": ["**/dist/*.min.js"]
+    "ignore": [
+      "**/dist/*.min.js"
+    ]
   }
 }
