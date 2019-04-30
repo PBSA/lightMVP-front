@@ -46,7 +46,7 @@ export default class Login extends Component {
             <Form.Label>Password</Form.Label>
             <Form.Control
               value={ this.state.password }
-              onChange={ this.handleChange }
+              onChange={ this.handleChange}
               type='password'
               placeholder='Password'
               autoComplete='current-password'
