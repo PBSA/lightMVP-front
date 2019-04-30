@@ -41,6 +41,6 @@ module.exports = {
     'padding-right': ['px'],
     'padding-bottom': ['px'],
     'padding-left': ['px'],
-    'width': ['px', '%', 'vw', 'vh'],
+    'width': ['px', '%', 'vw', 'vh']
   }
 };
