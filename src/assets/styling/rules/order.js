@@ -13,13 +13,13 @@ module.exports = {
     [{
       order: 'strict',
       properties: [
-        'content',
+        'content'
       ]
     },
     {
       order: 'strict',
       properties: [
-        'display',
+        'display'
       ]
     },
     {
@@ -31,7 +31,7 @@ module.exports = {
         'flex',
         'flex-grow',
         'flex-shrink',
-        'flex-basis',
+        'flex-basis'
       ]
     },
     {
@@ -54,7 +54,7 @@ module.exports = {
         'grid-column-end',
         'grid-row',
         'grid-row-start',
-        'grid-row-end',
+        'grid-row-end'
       ]
     },
     {
@@ -63,7 +63,7 @@ module.exports = {
         'justify-content',
         'justify-items',
         'align-content',
-        'align-items',
+        'align-items'
       ]
     },
     {
@@ -72,7 +72,7 @@ module.exports = {
         'justify-self',
         'align-self',
         'place-self',
-        'order',
+        'order'
       ]
     },
     {
@@ -83,27 +83,27 @@ module.exports = {
         'right',
         'bottom',
         'left',
-        'z-index',
+        'z-index'
       ]
     },
     {
       order: 'strict',
       properties: [
         'transform',
-        'vertical-align',
+        'vertical-align'
       ]
     },
     {
       order: 'strict',
       properties: [
         'float',
-        'clear',
+        'clear'
       ]
     },
     {
       order: 'strict',
       properties: [
-        'box-sizing',
+        'box-sizing'
       ]
     },
     {
@@ -111,7 +111,7 @@ module.exports = {
       properties: [
         'width',
         'min-width',
-        'max-width',
+        'max-width'
       ]
     },
     {
@@ -119,7 +119,7 @@ module.exports = {
       properties: [
         'height',
         'min-height',
-        'max-height',
+        'max-height'
       ]
     },
     {
@@ -129,7 +129,7 @@ module.exports = {
         'margin-top',
         'margin-right',
         'margin-bottom',
-        'margin-left',
+        'margin-left'
       ]
     },
     {
@@ -139,7 +139,7 @@ module.exports = {
         'padding-top',
         'padding-right',
         'padding-bottom',
-        'padding-left',
+        'padding-left'
       ]
     },
     {
@@ -154,7 +154,7 @@ module.exports = {
         'border-top-left-radius',
         'border-top-right-radius',
         'border-bottom-right-radius',
-        'border-bottom-left-radius',
+        'border-bottom-left-radius'
       ]
     },
     {
@@ -166,7 +166,7 @@ module.exports = {
         'font-weight',
         'font-style',
         'font-size',
-        'color',
+        'color'
       ]
     },
     {
@@ -175,14 +175,14 @@ module.exports = {
         'direction',
         'text-align',
         'text-transform',
-        'text-decoration',
+        'text-decoration'
       ]
     },
     {
       order: 'strict',
       properties: [
         'word-break',
-        'word-wrap',
+        'word-wrap'
       ]
     },
     {
@@ -194,13 +194,13 @@ module.exports = {
         'background-position',
         'background-repeat',
         'background-size',
-        'object-fit',
+        'object-fit'
       ]
     },
     {
       order: 'strict',
       properties: [
-        'box-shadow',
+        'box-shadow'
       ]
     },
     {
@@ -209,21 +209,21 @@ module.exports = {
         'list-style',
         'list-style-type',
         'list-style-position',
-        'list-style-image',
+        'list-style-image'
       ]
     },
     {
       order: 'strict',
       properties: [
         'transition',
-        'animation',
+        'animation'
       ]
     },
     {
       order: 'strict',
       properties: [
         'opacity',
-        'visibility',
+        'visibility'
       ]
     },
     {
@@ -231,16 +231,16 @@ module.exports = {
       properties: [
         'overflow',
         'overflow-x',
-        'overflow-y',
+        'overflow-y'
       ]
     },
     {
       order: 'strict',
       properties: [
         'cursor',
-        'pointer-events',
+        'pointer-events'
       ]
-    },
+    }
     ],
     {
       unspecified: 'bottom'
