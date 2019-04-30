@@ -1,0 +1,66 @@
+body{
+    background-image: url("../../img/war.jpg");
+}
+.start-datepicker{
+    border-radius: 5px;
+    border-width: 1px;
+    width: 240px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #555;
+}
+.end-datepicker{
+    border-radius: 5px;
+    border-width: 1px;
+    width: 240px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.create-challenge div{
+    font-size: 12px;
+}
+
+.create-challenge h3{
+    text-align: center;
+}
+
+.create-challenge {
+    max-width: 560px;
+    color: #3f51b5;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.95);
+    margin: 6em auto;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+}
+
+.create-challenge button{
+    display: flex;
+    align-content: center;
+    margin:auto;
+}
+
+.submit {
+    background: linear-gradient(to right, rgb(76, 39, 176), rgb(64, 92, 251));
+    border: none;
+}
+
+.cancel-btn {
+    background: linear-gradient(to right, rgb(78, 78, 78), rgb(151, 151, 151), rgb(78, 78, 78));
+    border: none;
+}
+
+.lbl-note {
+    padding: 5px 20px 15px 20px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
